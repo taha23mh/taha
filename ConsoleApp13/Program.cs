@@ -15,7 +15,7 @@ class Program
         {
             Console.WriteLine("\n******************************************* ");
             Console.WriteLine("Please select one of the options below");
-            Console.WriteLine("\n-------------------------------------------");
+            Console.WriteLine("\n------------------------------------------qwe-");
             Console.WriteLine("1-Creat100user");
             Console.WriteLine("\n ");
             Console.WriteLine("2-Enter the user");
