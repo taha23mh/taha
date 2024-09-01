@@ -13,7 +13,7 @@ namespace ConsoleApp13
         public string Name { get; set; }
         public string PhoneNumber { get; set; }
         public bool Gender { get; set; }
-
+        public string Family { get; set; }
         public override string ToString()
         {
             return $"ID: {Id}, Name: {Name}, National Code: {NationalCode}, Phone: {PhoneNumber}, Gender: {(Gender == true ? "Male" : " Female")}";
