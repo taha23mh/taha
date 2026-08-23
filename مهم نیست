@@ -1,0 +1,6 @@
+    extra_info = None
+    if current:
+        from datetime import datetime
+        from zoneinfo import ZoneInfo
+        sunrise = datetime.fromtimestamp(current['sys']['sunrise'], tz=ZoneInfo("UTC")).astimezone(ZoneInfo("Asia/Tehran"))
+        sunset = datetime.fromtimestamp(current['sys']['sunset'], tz=ZoneInfo("UTC")).astimezone(ZoneInfo("Asia/Tehran"))
